@@ -16,10 +16,11 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Hi Naveen</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
+      <ThemedText type="subtitle">By Dinesh</ThemedText>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
@@ -41,13 +42,22 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Notes to Naveen</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+           IDE use : VS Code , No need Android studio install Expo Go on mobile
+        </ThemedText>
+        <ThemedText>
+           Framework : Expo "I Inclued it"
+        </ThemedText>
+        <ThemedText>
+           Design UI Use : tailwind
+        </ThemedText>
+        <ThemedText>
+           Backend Web APIs Call Use : appwrite 
+        </ThemedText>
+
+        <ThemedText>
+           I have updated this code in GIT download from there.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
